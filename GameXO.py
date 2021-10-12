@@ -153,7 +153,7 @@ def check_win():
         return False
 
 def check_draw():
-    if field[1][1]  and field[1][2]  and field[1][3]  and field[2][1]  and field[2][2]  and field[2][3] and field[2][1]  and field[2][2]  and field[2][3]:
+    if field[1][1]  and field[1][2]  and field[1][3]  and field[2][1]  and field[2][2]  and field[2][3] and field[3][1]  and field[3][2]  and field[3][3]:
         print("Ничья")
         return True
 
